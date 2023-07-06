@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-export default function Sponsor() {
+const Sponsor = () => {
     return (
         <div className={'bg-primaryWhite py-[100px]'}>
             <div className={'max-w-[1320px]'}>
@@ -77,3 +77,5 @@ export default function Sponsor() {
         </div>
     )
 }
+
+export default Sponsor;

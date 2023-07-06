@@ -2,15 +2,17 @@ import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header() {
+const Header = () => {
     return (
-        <div className={'max-w-[1320px] h-8 pt-10 mx-auto flex justify-between gap-x-5 items-center'}>
-            <Image
-                src="/images/logos/logo-main.png"
-                alt="main-logo"
-                width={116}
-                height={32}
-            />
+        <div className={'max-w-[1320px] py-10 mx-auto block flex justify-between gap-x-5 items-center'}>
+            <Link href='/'>
+                <Image
+                    src="/images/logos/logo-main.png"
+                    alt="main-logo"
+                    width={116}
+                    height={32}
+                />
+            </Link>
             <div className={'hidden md:flex justify-between gap-x-10 items-center '}>
                 <Link href='#' className={'text-primaryColor text-lg font-medium'}>
                     About us
@@ -37,3 +39,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default Header;

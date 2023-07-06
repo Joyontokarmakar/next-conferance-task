@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import Header from "@/components/Header";
 
-export default function HeroBanner() {
+const HeroBanner = () => {
     return (
         <div className={'bg-hero-pattern h-[1088px]'}>
             <Header/>
-            <div className={'xl:max-w-[1320px] 2xl:max-w-[1552px] flex justify-between gap-x-5 items-center mt-20 mx-auto relative'}>
+            <div className={'xl:max-w-[1320px] 2xl:max-w-[1552px] flex justify-between gap-x-5 items-center mt-32 mx-auto relative'}>
                 <div className={'w-3/5 z-50'}>
                     <div className={'text-right'}>
                         <div className={'inline-block relative'}>
@@ -54,3 +53,5 @@ export default function HeroBanner() {
         </div>
     )
 }
+
+export default HeroBanner;

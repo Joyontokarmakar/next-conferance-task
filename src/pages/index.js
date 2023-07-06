@@ -1,17 +1,18 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import HeroBanner from "@/components/HeroBanner";
+import Conferences from "@/components/Conferences";
 import Sponsor from "@/components/Sponsor";
-import Footer from "@/components/Footer";
+import HeroBanner from "@/components/HeroBanner";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+const Home = () => {
   return (
     <main className={`${inter.className}`}>
       <HeroBanner/>
+      <Conferences/>
       <Sponsor/>
-      <Footer/>
     </main>
   )
 }
+
+export default Home;

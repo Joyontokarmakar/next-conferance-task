@@ -13,9 +13,11 @@ module.exports = {
         darkBlue: '#0A142F',
         primaryGray: '#617187',
         lightGray: '#CDCDCD',
+        mediumGray: '#617187',
         darkGray: '#667085',
         primaryWhite: '#F9FAFB',
-        primaryYellow: '#FFC93E'
+        primaryYellow: '#FFC93E',
+        lightYellow: '#FFF9EB'
       },
       backgroundImage: {
         'hero-pattern': "url('/images/hero-bg.png')",
