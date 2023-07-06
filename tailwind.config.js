@@ -7,10 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primaryColor: '#111D5E',
+        lightBlue: '#2563EB',
+        primaryGray: '#617187',
+        lightGray: '#CDCDCD',
+        primaryWhite: '#F9FAFB',
+        primaryYellow: '#FFC93E'
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-pattern': "url('/images/hero-bg.png')",
       },
     },
   },
