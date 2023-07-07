@@ -7,7 +7,7 @@ const conferenceDetails = () => {
     return(
         <div>
             <Header/>
-            ConferenceDetails {id}
+            <p>ConferenceDetails {id}</p>
         </div>
     )
 }

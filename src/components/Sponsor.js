@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sponsor = () => {
     return (
         <div className={'bg-primaryWhite py-[100px]'}>
-            <div className={'max-w-[1320px]'}>
+            <div className={'mx-auto max-w-[1320px]'}>
                 <h2 className={'text-darkBlue text-xl md:text-5xl font-bold text-center'}>Our Sponsor</h2>
                 <div className={'mt-8'}>
                     <p className={'text-darkGray text-xs md:text-base font-medium text-center'}>🥇 Gold Sponsor</p>
