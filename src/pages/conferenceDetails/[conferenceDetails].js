@@ -45,7 +45,7 @@ const conferenceDetails = () => {
                                     <img src="/images/conference-organizer.png" className={'rounded-lg'} alt="con"/>
                                     <div>
                                         <h2 className={'text-xl text-darkBlue font-bold'}>Siddhartha</h2>
-                                        <p className={'text-base text-darkBlue font-normal'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
+                                        <p className={'text-base text-darkBlue font-normal mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
                                     </div>
                                 </div>
                             </li>
@@ -54,7 +54,7 @@ const conferenceDetails = () => {
                                     <img src="/images/conference-organizer.png" className={'rounded-lg'} alt="con"/>
                                     <div>
                                         <h2 className={'text-xl text-darkBlue font-bold'}>Siddhartha</h2>
-                                        <p className={'text-base text-darkBlue font-normal'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
+                                        <p className={'text-base text-darkBlue font-normal mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
                                     </div>
                                 </div>
                             </li>
@@ -63,7 +63,7 @@ const conferenceDetails = () => {
                                     <img src="/images/conference-organizer.png" className={'rounded-lg'} alt="con"/>
                                     <div>
                                         <h2 className={'text-xl text-darkBlue font-bold'}>Siddhartha</h2>
-                                        <p className={'text-base text-darkBlue font-normal'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
+                                        <p className={'text-base text-darkBlue font-normal mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, inventore.</p>
                                     </div>
                                 </div>
                             </li>
