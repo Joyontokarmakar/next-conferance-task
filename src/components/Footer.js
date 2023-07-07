@@ -18,10 +18,10 @@ import Link from "next/link";
                     />
                 </Link>
                 <div className={'mt-12 flex justify-center items-center gap-x-10'}>
-                    <img src='/images/logos/twiter.png'/>
-                    <img src='/images/logos/linkedin.png'/>
-                    <img src='/images/logos/fb.png'/>
-                    <img src='/images/logos/glove.png'/>
+                    <img src='/images/icons/twitter.png'/>
+                    <img src='/images/icons/linkedin.png'/>
+                    <img src='/images/icons/fb.png'/>
+                    <img src='/images/icons/glove.png'/>
                 </div>
                 <p className={'text-base text-white font-normal text-center mt-8'}>&copy; {getYear()} Lemonhive. All rights reserved.</p>
             </div>

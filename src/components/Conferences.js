@@ -11,7 +11,7 @@ const Conferences = () => {
                     <Link href='conferenceDetails/1' className={'flex group'}>
                         <div className={'order-first mb-14'}>
                             <div className={'w-[480px] pb-10 bg-primaryWhite my-2 rounded-lg border-t-4 border-lightGray py-7 px-4 flex justify-start items-start gap-x-4'}>
-                                <img src="/images/conference-list-icon.png" alt=""/>
+                                <img src="/images/icons/conference-list-icon.png" alt=""/>
                                 <div>
                                     <p className={'text-primaryColor text-base lg:text-lg font-medium'}>Web Components - Write once & run </p>
                                     <p className={'text-primaryGray text-xs lg:text-sm font-normal'}>
@@ -33,7 +33,7 @@ const Conferences = () => {
                     <Link href='conferenceDetails/2' className={'flex group'}>
                         <div className={'order-last mb-14'}>
                             <div className={'w-[480px] bg-primaryWhite my-2 rounded-lg border-t-4 border-lightGray py-7 px-4 flex justify-start items-start gap-x-4'}>
-                                <img src="/images/conference-list-icon.png" alt=""/>
+                                <img src="/images/icons/conference-list-icon.png" alt=""/>
                                 <div>
                                     <p className={'text-primaryColor text-base lg:text-lg font-medium'}>Web Components - Write once & run </p>
                                     <p className={'text-primaryGray text-xs lg:text-sm font-normal'}>
@@ -55,7 +55,7 @@ const Conferences = () => {
                     <Link href='conferenceDetails/3' className={'flex group'}>
                         <div className={'order-first mb-14'}>
                             <div className={'w-[480px] pb-10 bg-primaryWhite my-2 rounded-lg border-t-4 border-lightGray py-7 px-4 flex justify-start items-start gap-x-4'}>
-                                <img src="/images/conference-list-icon.png" alt=""/>
+                                <img src="/images/icons/conference-list-icon.png" alt=""/>
                                 <div>
                                     <p className={'text-primaryColor text-base lg:text-lg font-medium'}>Web Components - Write once & run </p>
                                     <p className={'text-primaryGray text-xs lg:text-sm font-normal'}>
@@ -77,7 +77,7 @@ const Conferences = () => {
                     <Link href='conferenceDetails/4' className={'flex group'}>
                         <div className={'order-last mb-14'}>
                             <div className={'w-[480px] bg-primaryWhite my-2 rounded-lg border-t-4 border-lightGray py-7 px-4 flex justify-start items-start gap-x-4'}>
-                                <img src="/images/conference-list-icon.png" alt=""/>
+                                <img src="/images/icons/conference-list-icon.png" alt=""/>
                                 <div>
                                     <p className={'text-primaryColor text-base lg:text-lg font-medium'}>Web Components - Write once & run </p>
                                     <p className={'text-primaryGray text-xs lg:text-sm font-normal'}>
@@ -99,7 +99,7 @@ const Conferences = () => {
                     <Link href='conferenceDetails/5' className={'flex group'}>
                         <div className={'order-first mb-14'}>
                             <div className={'w-[480px] bg-primaryWhite my-2 rounded-lg border-t-4 border-lightGray py-7 px-4 flex justify-start items-start gap-x-4'}>
-                                <img src="/images/conference-list-icon.png" alt=""/>
+                                <img src="/images/icons/conference-list-icon.png" alt=""/>
                                 <div>
                                     <p className={'text-primaryColor text-base lg:text-lg font-medium'}>Web Components - Write once & run </p>
                                     <p className={'text-primaryGray text-xs lg:text-sm font-normal'}>

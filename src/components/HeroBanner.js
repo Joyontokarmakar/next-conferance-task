@@ -31,7 +31,7 @@ const HeroBanner = () => {
                             </p>
                             <button className={'bg-primaryYellow rounded-full w-[290px] py-4 flex justify-center gap-x-5 items-center mt-20'}>
                                 <span className={'text-darkBlue text-lg font-medium'}>Buy Tickets</span>
-                                <img src={'/images/arrow-up-right-icon.png'}/>
+                                <img src={'/images/icons/arrow-up-right-icon.png'}/>
                             </button>
                         </div>
                     </div>
