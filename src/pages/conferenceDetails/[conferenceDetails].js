@@ -20,25 +20,25 @@ const conferenceDetails = () => {
 
                 <div className={'flex justify-start gap-x-12 mt-[52px]'}>
                     <div>
-                        <button onClick={()=>handleActiveTab(0)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 0 ? 'bg-primaryYellow border border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
+                        <button onClick={()=>handleActiveTab(0)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 0 ? 'bg-primaryYellow border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
                             <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
                                 <img src="/images/icons/bi-directional-arrow.svg" alt=""/>
                             </div>
                             <span className={'text-xl font-bold ' + ( selectedTab === 0 ? 'text-white' : 'text-darkBlue')}>Organizer</span>
                         </button>
-                        <button onClick={()=>handleActiveTab(1)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 1 ? 'bg-primaryYellow border border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
+                        <button onClick={()=>handleActiveTab(1)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 1 ? 'bg-primaryYellow border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
                             <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
                                 <img src="/images/icons/bi-directional-arrow.svg" alt=""/>
                             </div>
                             <span className={'text-xl font-bold ' + ( selectedTab === 1 ? 'text-white' : 'text-darkBlue')}>Organizer</span>
                         </button>
-                        <button onClick={()=>handleActiveTab(2)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 2 ? 'bg-primaryYellow border border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
+                        <button onClick={()=>handleActiveTab(2)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 2 ? 'bg-primaryYellow border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
                             <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
                                 <img src="/images/icons/bi-directional-arrow.svg" alt=""/>
                             </div>
                             <span className={'text-xl font-bold ' + ( selectedTab === 2 ? 'text-white' : 'text-darkBlue')}>Organizer</span>
                         </button>
-                        <button onClick={()=>handleActiveTab(3)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 3 ? 'bg-primaryYellow border border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
+                        <button onClick={()=>handleActiveTab(3)} className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === 3 ? 'bg-primaryYellow border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}>
                             <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
                                 <img src="/images/icons/bi-directional-arrow.svg" alt=""/>
                             </div>
