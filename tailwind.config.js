@@ -22,6 +22,13 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/images/hero-bg.png')",
       },
+      screens: {
+        xxLargeDevice: { max: "1536px" },
+        xLargeDevice: { max: "1280px" },
+        largeDevice: { max: "1024px" },
+        mediumDevice: { max: "768px" },
+        smallDevice: { max: "500px" },
+      },
     },
   },
   plugins: [],
