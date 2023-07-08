@@ -17,7 +17,7 @@ const HeroBanner = () => {
         <div className={'bg-hero-pattern h-auto lg:h-[1088px] pb-10 mb-10 lg:mb-0'}>
             <Header/>
             { screenSize > 768 &&
-                <div className={'xl:max-w-[1320px] 2xl:max-w-[1552px] flex flex-wrap justify-between gap-x-5 items-center mt-32 mx-auto relative'}>
+                <div className={'xl:max-w-[1320px] 2xl:max-w-[1552px] flex justify-between gap-x-5 items-center mt-32 mx-auto relative'}>
                     <div className={'w-full md:w-3/5 z-50'}>
                         <div className={'text-right'}>
                             <div className={'inline-block relative'}>
