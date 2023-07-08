@@ -12,7 +12,7 @@ Next-Conference-Project
 |    
 ├── apollo/client            # bind a query to a component
 │   ├── v3.7.16     
-│        # scss styles
+│        
 ├── graphql                  # query language
 │   ├── v16.7.1  
 │   
