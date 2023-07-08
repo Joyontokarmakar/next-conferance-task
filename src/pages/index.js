@@ -5,6 +5,7 @@ import HeroBanner from "@/components/HeroBanner";
 import {GET_CONFERENCES} from "../../services/gql-requests";
 import {useQuery} from "@apollo/client";
 import {Head} from "next/document";
+import Loader from "@/components/Loader";
 
 const inter = Inter({ subsets: ['latin'] })
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
       <HeroBanner/>
         { loading ?
           (
-            <div className="h-screen flex items-center justify-center">PLease Wait...</div>
+            <Loader/>
           ) : (
             <ConferencesItem conf={confs}/>
           )

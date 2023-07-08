@@ -1,5 +1,9 @@
 import {useEffect, useState} from "react";
 import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
+import Speakers from "@/components/conference/Speakers";
+import Organizers from "@/components/conference/Organizers";
+import Schedule from "@/components/conference/Schedule";
+import Sponsors from "@/components/conference/Sponsors";
 
 const ConferenceSidebar = (prop) => {
     const [isBrowser, setIsBrowser] = useState(false);
@@ -52,17 +56,34 @@ const ConferenceSidebar = (prop) => {
                                                     {...provided.dragHandleProps}
                                                 >
                                                     <div
-                                                        className={'group w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)] ' + ( selectedTab === item.id ? 'bg-primaryYellow border-primaryYellow shadow-[0px 10px 20px 0px rgba(161, 161, 161, 0.25)' : 'bg-white border-lightGray' )}
                                                         onClick={() =>
-                                                            screenSize <= 768 && selectedTab === item.id
-                                                                ? setSelectedTab("")
-                                                                : setSelectedTab(item.id)
-                                                        }
-                                                    >
-                                                        <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
-                                                            <img src="/images/icons/bi-directional-arrow.svg" alt={item.name+' icon'}/>
+                                                        screenSize <= 768 && selectedTab === item.id
+                                                            ? setSelectedTab("")
+                                                            : setSelectedTab(item.id)
+                                                    }>
+
+                                                        <div
+                                                            className={
+                                                                'group w-[327px] lg:w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-btnShadow '
+                                                                + ( selectedTab === item.id
+                                                                    ? 'bg-primaryYellow border-primaryYellow shadow-btnShadow'
+                                                                    : 'bg-white border-lightGray'
+                                                                )
+                                                            }
+                                                        >
+                                                            <div className={'flex justify-center-items-center rounded-lg bg-white p-4'}>
+                                                                <img src="/images/icons/bi-directional-arrow.svg" alt={item.name+' icon'}/>
+                                                            </div>
+                                                            <span className={'text-xl font-bold ' + ( selectedTab === item.id ? 'text-white' : 'text-darkBlue')}>{item.label}</span>
                                                         </div>
-                                                        <span className={'text-xl font-bold ' + ( selectedTab === item.id ? 'text-white' : 'text-darkBlue')}>{item.label}</span>
+                                                        {item.id === selectedTab ? (
+                                                            <div className="w-[327px] bg-primaryWhite px-5 py-5 rounded-lg space-y-3 hidden mediumDevice:block smallDevice:px-3 smallDevice:py-3">
+                                                                {selectedTab === "organizer" && <Organizers organizer={conference.organizers} />}
+                                                                {selectedTab === "speakers" && <Speakers speakers={conference.speakers} />}
+                                                                {selectedTab === "schedule" && <Schedule schedules={conference.schedules} />}
+                                                                {selectedTab === "sponsors" && <Sponsors sponsors={conference.sponsors} />}
+                                                            </div>
+                                                        ) : null}
                                                     </div>
                                                 </div>
                                             )}

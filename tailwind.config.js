@@ -22,6 +22,9 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/images/hero-bg.png')",
       },
+      boxShadow: {
+        'btnShadow': '0px 10px 20px 0px rgba(161, 161, 161, 0.25)',
+      },
       screens: {
         xxLargeDevice: { max: "1536px" },
         xLargeDevice: { max: "1280px" },
