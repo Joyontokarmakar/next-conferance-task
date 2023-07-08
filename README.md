@@ -10,10 +10,10 @@ Next-Conference-Project
 ├── Tailwind CSS             # project root
 │   ├── v3.3.2
 |    
-├──  apollo/client           # bind a query to a component
+├── apollo/client            # bind a query to a component
 │   ├── v3.7.16     
 │        # scss styles
-├──  graphql                 # query language
+├── graphql                  # query language
 │   ├── v16.7.1  
 │   
 ├── react-beautiful-dnd      # List Drag and Drop
