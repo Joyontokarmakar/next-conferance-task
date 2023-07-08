@@ -12,14 +12,8 @@ import Sponsors from "@/components/conference/Sponsors";
 const conferenceID = () => {
     const [selectedTab, setSelectedTab] = useState("organizer");
 
-    const handleActiveTab = (value) => {
-        setSelectedTab(value)
-    }
-
     const {conferenceID} = useRouter().query
     const { loading, data } = useQuery(GET_CONFERENCE_DETAILS, {variables: { conferenceId: conferenceID },});
-
-    console.log(data)
 
     return(
         <div>

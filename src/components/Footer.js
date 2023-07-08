@@ -12,6 +12,7 @@ import Link from "next/link";
                     <Image
                         src="/images/logos/logo-white.png"
                         className={'block mx-auto'}
+                        priority={true}
                         alt="main logo"
                         width={175}
                         height={48}
