@@ -19,8 +19,8 @@ Next-Conference-Project
 ├── react-beautiful-dnd      # List Drag and Drop
 │   ├── v13.1.1    
 │    
-└── moment js                # Date Formatter
-|   ├── v2.29.4
+├── moment js                # Date Formatter
+└── ├── v2.29.4
 ```
 
 ## [Live Site](https://conference-manage.netlify.app/)
