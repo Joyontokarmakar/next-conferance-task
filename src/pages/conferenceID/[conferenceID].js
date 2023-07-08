@@ -26,13 +26,13 @@ const conferenceID = () => {
                     <h2 className={'text-2xl lg:text-5xl text-darkBlue font-bold'}>{data.conference.name}</h2>
                     <p className={'text-base lg:text-xl text-darkBlue opacity-80 font-normal mt-4'}>{data.conference.slogan}</p>
 
-                    <div className={'flex justify-start gap-x-12 mt-10 lg:mt-[52px]'}>
+                    <div className={'w-full flex justify-start gap-x-12 mt-10 lg:mt-[52px]'}>
                         <ConferenceSidebar
                             setSelectedTab={setSelectedTab}
                             selectedTab={selectedTab}
                             conference={data.conference}
                         />
-                        <div className={'w-full bg-primaryWhite rounded-lg p-[52px] block mediumDevice:hidden'}>
+                        <div className={'w-full bg-primaryWhite rounded-lg p-[52px] block largeDevice:hidden'}>
                             {selectedTab === "organizer" && <Organizers organizer={data.conference.organizers} />}
                             {selectedTab === "speakers" && <Speakers speakers={data.conference.speakers} />}
                             {selectedTab === "schedule" && <Schedule schedules={data.conference.schedules} />}

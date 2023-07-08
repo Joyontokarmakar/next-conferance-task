@@ -40,7 +40,7 @@ const ConferenceSidebar = (prop) => {
 
 
     return (
-        <div>
+        <div className={'w-full lg:w-auto'}>
             <DragDropContext onDragEnd={handleDrop}>
                 <div>
                     {isBrowser ? (
@@ -57,14 +57,14 @@ const ConferenceSidebar = (prop) => {
                                                 >
                                                     <div
                                                         onClick={() =>
-                                                        screenSize <= 768 && selectedTab === item.id
+                                                        screenSize <= 1024 && selectedTab === item.id
                                                             ? setSelectedTab("")
                                                             : setSelectedTab(item.id)
                                                     }>
 
                                                         <div
                                                             className={
-                                                                'group w-[327px] lg:w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-btnShadow '
+                                                                'group min-w-[327px] lg:w-[365px] mb-8 hover:bg-primaryYellow p-2 flex justify-start gap-x-[45px] items-center rounded-lg border hover:border-primaryYellow hover:shadow-btnShadow '
                                                                 + ( selectedTab === item.id
                                                                     ? 'bg-primaryYellow border-primaryYellow shadow-btnShadow'
                                                                     : 'bg-white border-lightGray'
@@ -77,7 +77,7 @@ const ConferenceSidebar = (prop) => {
                                                             <span className={'text-xl font-bold ' + ( selectedTab === item.id ? 'text-white' : 'text-darkBlue')}>{item.label}</span>
                                                         </div>
                                                         {item.id === selectedTab ? (
-                                                            <div className="w-[327px] bg-primaryWhite px-5 py-5 rounded-lg space-y-3 hidden mediumDevice:block smallDevice:px-3 smallDevice:py-3">
+                                                            <div className="min-w-[327px] bg-primaryWhite px-5 py-5 rounded-lg space-y-3 hidden largeDevice:block mediumDevice:px-3 mediumDevice:py-3">
                                                                 {selectedTab === "organizer" && <Organizers organizer={conference.organizers} />}
                                                                 {selectedTab === "speakers" && <Speakers speakers={conference.speakers} />}
                                                                 {selectedTab === "schedule" && <Schedule schedules={conference.schedules} />}
