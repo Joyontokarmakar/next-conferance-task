@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import ThunderIcon from "@/components/ThunderIcon";
+import moment from "moment";
 
 const ConferencesItem = (prop) => {
     let {conf} = prop
@@ -38,7 +39,7 @@ const ConferencesItem = (prop) => {
                                 <div className={'w-0.5 h-full bg-lightGray group-hover:bg-primaryYellow ' + (lastIndex === index ? 'hidden' : '')}/>
                             </div>
                             <div className={'w-[480px] ' + (oddEvenHandler(index) ? 'order-last' : 'order-first')}>
-                                <p className={'text-sm text-mediumGray mt-5 ' + (oddEvenHandler(index) ? '': 'text-right')}>{item.startDate}</p>
+                                <p className={'text-sm text-mediumGray mt-5 ' + (oddEvenHandler(index) ? '': 'text-right')}>{moment(item.startDate).format('DD MMMM, YYYY')}</p>
                             </div>
                         </Link>
                     ))}
