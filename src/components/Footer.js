@@ -22,7 +22,7 @@ import Link from "next/link";
                     <img src='/images/icons/twitter.png'/>
                     <img src='/images/icons/linkedin.png'/>
                     <img src='/images/icons/fb.png'/>
-                    <img src='/images/icons/glove.png'/>
+                    <img src='/images/icons/dribble.png'/>
                 </div>
                 <p className={'text-base text-white font-normal text-center mt-8'}>&copy; {getYear()} Lemonhive. All rights reserved.</p>
             </div>

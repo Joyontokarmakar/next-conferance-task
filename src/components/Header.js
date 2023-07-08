@@ -20,7 +20,7 @@ const Header = () => {
                 <Link href='#' className={'text-primaryColor text-lg font-medium'}>
                     What We do
                 </Link>
-                <Link href='#' className={'text-primaryColor text-lg font-medium'}>
+                <Link href='#' target="_blank" className={'text-primaryColor text-lg font-medium'}>
                     Our work
                 </Link>
                 <Link href='#' className={'text-primaryColor text-lg font-medium'}>
