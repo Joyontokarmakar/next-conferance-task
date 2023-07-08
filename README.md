@@ -20,7 +20,8 @@ Next-Conference-Project
 │   ├── v13.1.1    
 │    
 ├── moment js                # Date Formatter
-└── ├── v2.29.4
+│   ├── v2.29.4         
+└── 
 ```
 
 ## [Live Site](https://conference-manage.netlify.app/)
